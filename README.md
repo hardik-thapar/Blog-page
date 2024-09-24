@@ -12,4 +12,4 @@ Blog Post Details: A detailed view of each blog post with content and comments.
 Responsive Design: The blog page is designed to be responsive and accessible on various devices and screen sizes.
 
 <h3>Author</h3>
-Hardik Thapar - hardik.thapar@email.com
+Hardik Thapar - hardikthapar1@email.com
