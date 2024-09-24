@@ -1,4 +1,4 @@
-# Blog Page
+<h1>Blog Page</h1> 
 
 Here is a suggested README file content for the Blog-page repository:
 
