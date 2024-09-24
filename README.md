@@ -1,6 +1,8 @@
+** Blog Page **
+
 Here is a suggested README file content for the Blog-page repository:
 
-BLOG PAGE
+
 Overview
 This repository contains the source code for a simple blog page built using [insert technologies/frameworks used, e.g. HTML, CSS, JavaScript, React, etc.]. The blog page allows users to view and interact with blog posts.
 
