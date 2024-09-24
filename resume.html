@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Layout with Flexbox</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #c5e3f2;
+    }
+
+    .resume-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgb(163, 172, 239);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .skills-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .skill {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .skill p {
+      margin-bottom: 5px;
+    }
+
+    .skill-bar {
+      width: 80px;
+      height: 10px;
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+
+    .html {
+      background-color: #e44d26;
+      width: 90%;
+    }
+
+    .css {
+      background-color: #1572b6;
+      width: 80%;
+    }
+
+    .js {
+      background-color: #f0db4f;
+      width: 70%;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .resume-container {
+        padding: 10px;
+      }
+
+      .skills-row {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      .skill-bar {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <section class="about-me">
+      <h2>My Resume</h2>
+      <p>My name is Hardik Thapar. I am a first-year BTech CSE student with a focus on Artificial Intelligence at Chitkara University. I have a passion for technology and a strong interest in front-end development and AI. I am eager to apply my skills and knowledge in real-world applications to create impactful solutions.</p>
+      <p><strong>Date of Birth:</strong> 12th October 2006</p>
+      <p><strong>Location:</strong> Rajpura, Punjab</p>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <p>No professional experience yet, but actively learning and building projects related to front-end development and AI.</p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skills-row">
+        <div class="skill">
+          <p>HTML</p>
+          <div class="skill-bar html"></div>
+        </div>
+        <div class="skill">
+          <p>CSS</p>
+          <div class="skill-bar css"></div>
+        </div>
+        <div class="skill">
+          <p>JavaScript</p>
+          <div class="skill-bar js"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <p>BTech in Computer Science and Engineering (Artificial Intelligence) - Chitkara University, Punjab</p>
+    </section>
+  </div>
+</body>
+</html>
